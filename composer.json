@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "intradarma\\yii2-sweetalert2\\": ""
+            "intradarma\\sweetalert2\\": ""
         }
     },
     "extra": {
