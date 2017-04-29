@@ -1,0 +1,29 @@
+{
+    "name": "intradarma/yii2-sweetalert2",
+    "description": "Alert widget based on SweetAlert2 {@link https://limonte.github.io/sweetalert2)",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "sweetalert2", "yii2 alert", "alert"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Intra Darma",
+            "email": "intra.darma@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/sweetalert2" : ">=6.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "intradarma\\yii2-sweetalert2\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
